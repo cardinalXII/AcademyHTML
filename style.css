@@ -1,0 +1,176 @@
+
+						
+						
+						/* ----- Стиль для Контента -------*/
+.conteiner {
+    max-width: 100%;
+    background-color: #f1f1f1;
+    height: auto;
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+						/* -----  Голова сайта-------*/
+.head{
+	max-width: 100%;
+}
+
+						/* ----- Начало верхнего меню-------*/
+			/* ----- Контенер верхнего блока меню-------*/
+.logocontent{
+	max-width: 100%;
+}
+			/* ----- контейнер Лого верхнего меню-------*/
+.logo{
+	max-width: 100%;
+	height: 90px;
+}
+			/* ----- Лого верхнего меню-------*/
+.logoimage{
+	float: left;
+}
+			/* ----- Текст верхнего меню-------*/
+.logotext{	
+	height: 89%;
+	background-color:white;
+	overflow: hidden;
+	text-align: center;
+	padding: 10px 0px 0px 0px;
+	font-size: 29px;
+}
+			/* ----- Контейнер нижнего блока меню-------*/
+.topmenu { 
+	overflow: hidden;
+	padding: 10px 10px;	
+}
+			/* ----- Содержимое нижнего блока меню-------*/ 
+.topmenu-right {
+	float: right;	 
+}					
+.topmenu a {		
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 20px 40px;
+	text-decoration: none;
+	font-size: 22px; 
+	line-height: 25px;
+	border-radius: 10px;
+}
+.topmenu a:hover {
+	background-color: #ddd;
+	color: black;
+}
+			/* ----- Содержимое нижнего блока меню при изменении ширины страницы-------*/  
+@media screen and (max-width: 480px) {
+		.topmenu a {
+		    float: none;
+		    display: block;
+		    text-align: center;
+		    }
+		.topmenu-right {
+		    float: none;
+			}
+}
+						/* ----- Окончание верхнего меню-------*/
+						
+						/* ----- Начало стиля для Картинки -------*/
+			/* ----- Контенер для содержимого картинки -------*/
+.header { 
+	width: 100%;
+	background-color: #f1f1f1;
+}	
+			/* ----- Содержимое картинки -------*/ 
+.responsive {
+	display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+						/* ----- Окончание стиля для Картинки -------*/
+						/* ----- Начало стиля для контента index.html -------*/
+p{
+	text-indent: 20px;
+}
+						/* ----- Окончание стиля для контента index.html -------*/
+
+						/* ----- Начало стиля для нижнего меню -------*/
+			/* ----- Контейнер нижнего меню-------*/
+.boottom { 
+	max-width: 100%;
+	overflow: hidden;
+	background-color: #f1f1f1;
+	border-top: 3px solid grey;
+}
+			/* ----- Содержимое нижнего меню-------*/
+.boottom a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px; 
+	line-height: 25px;
+}
+			/* ----- Содержимое нижнего меню при изменении ширины страницы-------*/
+.boottom a:hover {
+	background-color: #ddd;
+	color: black;
+}
+.boottom-right {
+	float: right;
+}		 
+@media screen and (max-width: 480px) {
+	.boottom a {
+	    float: none;
+	    display: block;
+	    text-align: center;
+	}
+	.boottom-right {
+	    float: none;
+		}
+}
+							/* ----- Окончание стиля для нижнего меню -------*/
+
+/* ----- Начало стиля для контента index.html -------*/
+
+h1 {
+	text-align: center;
+}
+.content{
+	max-width: 100%;
+	
+}
+.content-electric{
+	max-width: 100%;
+	max-height: max-content;
+}
+.contentext{
+	max-width: 100%;
+	
+}
+
+.content-electric p{
+	margin:10px;
+	text-indent: 40px;
+	font-size: 20px;
+	text-align: justify;
+}
+.content-slabotochka p{
+	margin:10px;
+	text-indent: 40px;
+	font-size: 20px;
+	text-align: justify;
+}
+						/* ----- Окончание стиля для контента index.html -------*/
+
+
+/* ----- Начало стиля для вкладок -------*/
+/*.tabcontent {
+		   	display: none;
+		    padding: 6px 12px;
+		    border: 1px solid #ccc;
+		    border-top: none;
+}*/
+/* ----- Окончание стиля для вкладок -------*/
